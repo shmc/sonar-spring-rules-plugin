@@ -1,0 +1,10 @@
+<profile>
+    <name>Spring way</name>
+    <language>java</language> 
+    <rules>
+		<rule>
+			<repositoryKey>Spring</repositoryKey>
+			<key>BeanClassCheck</key>
+		</rule>
+    </rules>
+</profile> 

@@ -1,0 +1,22 @@
+<rules>
+	<rule>
+	    <key>net.peakplatform.sonar.plugins.spring.checks.RequiredPropertyCheck</key>
+	    <name>@Required Property Rule</name>
+	    <configKey>Checker/TreeWalker/net.peakplatform.sonar.plugins.spring.checks.RequiredPropertyCheck</configKey>
+	    <category name="Spring"/>
+	    <description>Validates a bean @Required property's accessor methods in the bean class.</description>
+	</rule>
+	<rule key="BeanClassNotFound" priority="MAJOR">
+		<repositoryKey>Spring</repositoryKey>
+    	<configKey>Spring/BeanClassNotFound</configKey>
+		<name>Bean Class Not Found Check</name>
+		<description>The defined bean class does not exist.</description>
+	</rule>
+	<rule key="BeanClassNotClass" priority="MINOR">
+		<repositoryKey>Spring</repositoryKey>
+    	<configKey>Spring/BeanClassNotClass</configKey>
+		<name>Bean Class Not Class Check</name>
+		<description>The defined bean is not a class.</description>
+	</rule>
+</rules>
+  
